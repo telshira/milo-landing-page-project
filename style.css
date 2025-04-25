@@ -13,19 +13,19 @@ body {
 }
 
 .header {
-  height: 60px;
+  height: 100px;
   background-color: #1F2937;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 10%;
 }
 
 .logo {
-  font-size: 24px;
-  color: #F9FAF8;
-
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 ul {
@@ -41,5 +41,14 @@ a {
 
 .section.one {
   background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 100px 10%;
+}
+
+.main-title {
   color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
 }
