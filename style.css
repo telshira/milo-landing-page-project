@@ -12,6 +12,12 @@ body {
   flex-direction: column;
 }
 
+.header,
+[class^="section"],
+.footer {
+  padding:0 10%;
+}
+
 .header {
   height: 100px;
   background-color: #1F2937;
@@ -19,7 +25,6 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10%;
 }
 
 .logo {
