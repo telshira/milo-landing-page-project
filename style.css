@@ -160,3 +160,26 @@ h2 {
   align-self: flex-end;
   padding-right: 5%;
 }
+
+.action-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 55px 10%;
+  margin: 80px 0;
+  border-radius: 15px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.learn-more.bottom {
+  border: 2px solid #F9FAF8;
+}
