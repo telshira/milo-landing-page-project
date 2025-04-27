@@ -92,3 +92,44 @@ a {
   border-radius: 10px;
   width: 100%;
 }
+
+.section.two {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  padding: 50px 0;
+}
+
+.pictures-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.picture {
+  margin: 0 20px 50px 20px;
+}
+
+.picture img {
+  object-fit: cover;
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+  border: 3px solid #3882F6;
+  box-shadow: 5px 3px 3px #b1b1b2;
+}
+
+.caption {
+  font-size: 16px;
+  color: #8d8d8f;
+  font-style: italic;
+  max-width: 200px;
+  margin-top: 10px;
+}
