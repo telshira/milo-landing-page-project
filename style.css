@@ -25,6 +25,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-top: 30px;
 }
 
 .logo {
@@ -116,10 +117,7 @@ h2 {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 80px;
-}
-
-.picture {
-  margin: 0 20px 50px 20px;
+  gap: 30px;
 }
 
 .picture img {
@@ -182,4 +180,13 @@ h4 {
 
 .learn-more.bottom {
   border: 2px solid #F9FAF8;
+}
+
+.footer {
+  text-align: center;
+  align-items: center;
+  padding: 40px 0;
+  background-color: #1F2937;
+  font-size: 18px;
+  color: #E5E7EB;
 }
