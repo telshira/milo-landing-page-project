@@ -25,6 +25,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  gap: 85px;
   padding-top: 30px;
 }
 
@@ -36,6 +37,12 @@ body {
 
 ul {
   list-style: none;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 a {
